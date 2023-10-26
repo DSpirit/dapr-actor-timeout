@@ -1,0 +1,7 @@
+version: 1
+apps:
+  - appID: dapr-timeout
+    appDirPath: ./
+    command: ["dotnet","run", "."]
+    env:
+      DAPRSIDEKICK_ENABLED: "false"
